@@ -1,0 +1,7 @@
+language: python
+dist: trusty
+# group: bluezone
+python:
+  - "2.7"
+install: true
+script: pytest
